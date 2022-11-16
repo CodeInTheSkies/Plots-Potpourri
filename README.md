@@ -12,7 +12,7 @@ This plot shows log expressions (box and whisker plots) of selected genes in can
 
 The two genes chosen demonstrate the contrasting scenarios where MAGEA4 turns out to be a good choice (and hence the green check mark), whereas MAGEA8 turns out to be a bad choice since it is expressed in so many normal tissues (hence the cross mark). 
 
-So, one final question that may be on your mind is, "why do we need to make sure the gene is not expressed in normal tissues"?  This is a requirement because the drugs target these genes in the sense that they try to suppress or inhibit these genes from expressing and thereby starve the cancer progression. This is the mechanism of treatment. Therefore, this criteria makes sure that the damaging side effect of chemotherapy, where normal tissues (or cells) are also killed, is kept to the minimum.
+So, one final question that may be on your mind is, _"why do we need to make sure the gene is not expressed in normal tissues"?_  This is a requirement because the drugs target these genes in the sense that they try to suppress or inhibit these genes from expressing and thereby starve the cancer progression. This is the mechanism of treatment. Therefore, this criteria makes sure that the damaging side effect of chemotherapy, where normal tissues (or cells) are also killed, is kept to the minimum.
 
 Data source: [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) and [The Genotype-Tissue Expression (GTEx) project.](https://gtexportal.org/home/)
  
