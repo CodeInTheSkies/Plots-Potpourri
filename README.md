@@ -26,3 +26,12 @@ Further, the rows are hierarchically clustered so that similar patches occur tog
 Below is a zoomed-in portion of a similar overview heatmap, where the gene names are visible, and the trend is clearer _(notice the clear gene group that are quite red in the cancers and quite blue in the normals)._ 
 
 ![Zoomed trend_overview heatmap](/plots/ZoomedTrend_OverviewHM.png)
+
+
+### 2. Investigating AML data by mutations and disease state
+
+The below two plot sets are box and whisker plots showing the expressions of two genes of interest, cGAS and STING, in acute myelogenous leukemia (AML) patients. Each dot is a patient belonging to a specific AML subtype or disease state, and the groups have been compared using Wilcoxon ranksum test for statistical significance. The p-values are shown between chosen groups of interest.
+
+![CGAS AML grouped by mutations](/plots/CGAS_AML_grouped_by_mutations.png)
+
+![STING AML grouped by mutations](/plots/STING_AML_grouped_by_mutations.png)
