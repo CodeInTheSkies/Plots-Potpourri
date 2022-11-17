@@ -24,3 +24,5 @@ The above is a full overview heatmap where the gene expressions are averaged by 
 Further the rows are hierarchically clustered so that similar patches occur together. We can see some interesting genes as marked that can be considered to be good candidates for further study.
 
 Below is a zoomed-in portion of the heatmap, where the gene names are visible, and the trend is clearer _(notice the clear gene group that are quite red in the cancers and quite blue in the normals)._ 
+
+![Zoomed trend_overview heatmap](/plots/ZoomedTrend_OverviewHM.png)
