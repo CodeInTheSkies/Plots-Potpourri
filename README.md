@@ -19,10 +19,10 @@ Data source: [The Cancer Genome Atlas (TCGA)](https://www.cancer.gov/about-nci/o
  
 ![Full trend overview heatmap](/plots/FullTrend_OverviewHM.png)
 
-The above is a full overview heatmap where the gene expressions are averaged by grouping according to the normal tissue or cancer type, and then plotted as heatmaps. So, each colored box in the heatmap represents the average expression of a given gene (row) in a given group (column). Before plotting the average values are scaled (or z-scored) to obtain zero mean and unit variance. 
+The above is a full overview heatmap where the gene expressions are averaged by grouping according to the normal tissue or cancer type, and then plotted as a heatmap. The row and column labels are not legible, but the purpose of showing this plot is to see an overall trend. Each colored box in the heatmap represents the average expression of a given gene (row) in a given group (column). Before plotting, the average values are scaled (or z-scored) to obtain zero mean and unit variance. 
 
-Further the rows are hierarchically clustered so that similar patches occur together. We can see some interesting genes as marked that can be considered to be good candidates for further study.
+Further, the rows are hierarchically clustered so that similar patches occur together. We can see some interesting patches, as marked, that can be considered to be good candidates for further study.
 
-Below is a zoomed-in portion of the heatmap, where the gene names are visible, and the trend is clearer _(notice the clear gene group that are quite red in the cancers and quite blue in the normals)._ 
+Below is a zoomed-in portion of a similar overview heatmap, where the gene names are visible, and the trend is clearer _(notice the clear gene group that are quite red in the cancers and quite blue in the normals)._ 
 
 ![Zoomed trend_overview heatmap](/plots/ZoomedTrend_OverviewHM.png)
